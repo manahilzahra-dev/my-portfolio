@@ -73,7 +73,7 @@ tl.from(btnRef.current,{
 });
   
   return (
-    <div ref={sectionRef} className="max-w-7xl mx-auto py-24 px-10 flex flex-col md:flex-row gap-16 text-white justify-between items-center ">
+    <section id='about' ref={sectionRef} className="max-w-7xl mx-auto py-24 px-10 flex flex-col md:flex-row gap-16 text-white justify-between items-center ">
       {/* left side */}
       <div className="w-full md:w-[40%] flex justify-center items-center">
         <div ref={imgRef} className="w-72 h-96 rounded-3xl  bg-gradient-to-br from-[#1b2130] to-[#111827] border border-purple-500/30 shadow-[0_0_35px_rgba(168,85,247,0.2)]  flex justify-center items-center relative overflow-hidden ">
@@ -127,7 +127,7 @@ tl.from(btnRef.current,{
           </a>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -122,7 +122,7 @@ tl.call(() => {
 
 
   return (
-    <section className='flex flex-col justify-center items-center md:flex-row py-5 md:py-24 lg:py-28  mx-auto   px-10 gap-10 text-white max-w-7xl mt-1 ' >
+    <section id="home" className='flex flex-col justify-center items-center md:flex-row py-5 md:py-24 lg:py-28  mx-auto   px-10 gap-10 text-white max-w-7xl mt-1 ' >
         {/* sec1 ka 1st child */}
       <div className="w-full md:w-[60%] flex flex-col gap-5">
          <div ref={badgeRef} className="bg-purple-950/40 rounded-full w-fit px-4 py-2 font-sm md:text-sm text-purple-400 border border-gray-500">

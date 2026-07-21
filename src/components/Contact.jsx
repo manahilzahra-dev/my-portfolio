@@ -50,7 +50,7 @@ useGSAP(() => {
 
 },{scope:sectionRef});
   return (
-    <section ref={sectionRef} className="max-w-7xl mx-auto px-10 py-24">
+    <section id="contact" ref={sectionRef} className="max-w-7xl mx-auto px-10 py-24">
         <h2 ref={headingRef} className="text-4xl md:text-5xl font-bold text-center text-white">Contact <span className="text-purple-500">Me </span></h2>
         <p ref={paraRef} className="text-gray-400 text-center mt-5 max-w-2xl mx-auto">Have a project in mind or want to work together? Feel free to reach out.</p>
 

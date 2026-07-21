@@ -167,7 +167,7 @@ const cardsRef = useRef([])
   
 
     return (
-        <section ref={sectionRef} className="max-w-7xl mx-auto py-24 px-10">
+        <section id="skills" ref={sectionRef} className="max-w-7xl mx-auto py-24 px-10">
             {/* <SiVisualstudiocode className="text-4xl text-blue-500" /> */}
             <h2 ref={headingRef} className="text-white text-4xl md:text-5xl  font-bold text-center"
             >My   <span className="text-purple-500"> Skills</span></h2>

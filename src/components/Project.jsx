@@ -57,7 +57,7 @@ const Project = () => {
 
   }, { scope: sectionRef });
   return (
-    <section ref={sectionRef} className="max-w-7xl mx-auto py-24 px-10">
+    <section id="project" ref={sectionRef} className="max-w-7xl mx-auto py-24 px-10">
       <h2 ref={headingRef} className="text-4xl md:text-5xl font-bold text-white text-center">
         My <span className="text-purple-400">Projects</span>
       </h2>
