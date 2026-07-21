@@ -25,7 +25,7 @@ console.log(cardRef.current);
         trigger: sectionRef.current,
         start: "top 80%",
         toggleActions: "play none none none ",
-         markers:true
+         
       },
     })
     tl.from(headingRef.current, {
