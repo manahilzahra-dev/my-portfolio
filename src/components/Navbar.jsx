@@ -119,8 +119,10 @@ const Navbar = () => {
           <ul ref={desktopMenuRef} className="md:flex justify-between items-center gap-8 text-lg hidden">
             <li><a href="#home" className="text-gray-400 hover:text-white transition-all duration-200">Home</a></li>
             <li><a href="#about" className="text-gray-400 hover:text-white transition-all duration-200">About</a></li>
+             <li><a href="#skills" className="text-gray-400 hover:text-white transition-all duration-200">Skills</a></li>
+             <li><a href="#project" className="text-gray-400 hover:text-white transition-all duration-200">Projects</a></li>
             <li><a href="#contact" className="text-gray-400 hover:text-white transition-all duration-200">Contact  </a></li>
-            <li><a href="#project" className="text-gray-400 hover:text-white transition-all duration-200">Projects</a></li>
+           
           </ul>
         </div>
         <div>
