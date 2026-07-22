@@ -73,7 +73,7 @@ const Project = () => {
           (cardsRef.current[0] = el)
         }} className="bg-[#161b22] border border-purple-500/20 rounded-2xl overflow-hidden hover:border-purple-500 transition-all duration-300 hover:-translate-y-2">
           {/* Image container */}
-          <div className="h-52 bg-white flex items-center justify-center ">
+          <div className="h-52 bg-white flex items-center justify-center hover:scale-105 transition duration-500">
             {/* project image */}
             <img
               src={talentflow}
@@ -85,7 +85,7 @@ const Project = () => {
           <div className="p-6">
             <h3 className="text-2xl font-bold text-white">Talent Flow AI</h3>
             <p className="text-gray-400 leading-normal mt-3 text-sm min-h-[60px]">
-              An AI-powered resume screening web application that analyzes resumes, matches skills, and helps recruiters find the best candidates quickly.
+              TalentFlow AI is a full-stack resume screening platform that parses PDF resumes, matches candidate skills against job requirements, calculates a compatibility score, and stores scan history securely using MySQL.
             </p>
             {/* Tech Stack */}
             <div className="flex flex-wrap gap-2 mt-5">
@@ -95,8 +95,16 @@ const Project = () => {
             </div>
             {/* Action Buttons */}
             <div className="flex gap-3 mt-6">
-              <a href="/" className="bg-purple-600 hover:bg-purple-500 px-4 py-2 rounded-full text-xs font-bold transition">Live Demo</a>
-              <a href="#" className="border border-purple-500 px-4 py-2 rounded-full text-xs font-bold hover:bg-purple-500/10 transition text-purple-400">Source Code</a>
+              <a href="https://github.com/manahilzahra-dev/TalentFlow-AI"
+                className="bg-purple-600 hover:bg-purple-500 px-4 py-2 rounded-full text-xs font-bold transition">Project Gallery</a>
+              <a
+                href="https://github.com/manahilzahra-dev/TalentFlow-AI"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border border-purple-500 px-4 py-2 rounded-full text-xs font-bold hover:bg-purple-500/10 transition text-purple-400"
+              >
+                GitHub
+              </a>
             </div>
           </div>
         </div>
